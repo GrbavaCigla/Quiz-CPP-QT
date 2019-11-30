@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/lib521.dir/lib521_autogen/mocs_compilation.cpp.o CMakeFiles/lib521.dir/lib521.c.o CMakeFiles/lib521.dir/first.c.o  -o lib521  -Wl,-rpath,/home/cigla/Documents/Git/Quiz/build/lib/curl/lib ../../lib/libcurl.so -lidn2 -llber -lldap -ldl -lpthread /usr/lib/libssl.so /usr/lib/libcrypto.so /usr/lib/libz.so -lssh2 

@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC   -shared  -o .libs/libhostname.so CMakeFiles/hostname.dir/hostname_autogen/mocs_compilation.cpp.o CMakeFiles/hostname.dir/sethostname.c.o 

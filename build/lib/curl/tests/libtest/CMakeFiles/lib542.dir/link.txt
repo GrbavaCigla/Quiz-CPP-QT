@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/lib542.dir/lib542_autogen/mocs_compilation.cpp.o CMakeFiles/lib542.dir/lib542.c.o CMakeFiles/lib542.dir/first.c.o  -o lib542  -Wl,-rpath,/home/cigla/Documents/Git/Quiz/build/lib/curl/lib ../../lib/libcurl.so -lidn2 -llber -lldap -ldl -lpthread /usr/lib/libssl.so /usr/lib/libcrypto.so /usr/lib/libz.so -lssh2 

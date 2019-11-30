@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/unit1603.dir/unit1603_autogen/mocs_compilation.cpp.o CMakeFiles/unit1603.dir/unit1603.c.o CMakeFiles/unit1603.dir/__/libtest/first.c.o  -o unit1603  -Wl,-rpath,/home/cigla/Documents/Git/Quiz/build/lib/curl/lib ../../lib/libcurl.so -lidn2 -llber -lldap -ldl -lpthread /usr/lib/libssl.so /usr/lib/libcrypto.so /usr/lib/libz.so -lssh2 

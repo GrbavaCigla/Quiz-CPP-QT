@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/lib651.dir/lib651_autogen/mocs_compilation.cpp.o CMakeFiles/lib651.dir/lib651.c.o CMakeFiles/lib651.dir/first.c.o  -o lib651  -Wl,-rpath,/home/cigla/Documents/Git/Quiz/build/lib/curl/lib ../../lib/libcurl.so -lidn2 -llber -lldap -ldl -lpthread /usr/lib/libssl.so /usr/lib/libcrypto.so /usr/lib/libz.so -lssh2 

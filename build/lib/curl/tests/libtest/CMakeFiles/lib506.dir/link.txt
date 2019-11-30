@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/lib506.dir/lib506_autogen/mocs_compilation.cpp.o CMakeFiles/lib506.dir/lib506.c.o CMakeFiles/lib506.dir/first.c.o  -o lib506  -Wl,-rpath,/home/cigla/Documents/Git/Quiz/build/lib/curl/lib ../../lib/libcurl.so -lidn2 -llber -lldap -ldl -lpthread /usr/lib/libssl.so /usr/lib/libcrypto.so /usr/lib/libz.so -lssh2 
