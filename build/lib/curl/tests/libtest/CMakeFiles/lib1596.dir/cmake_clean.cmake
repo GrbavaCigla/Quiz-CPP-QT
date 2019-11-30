@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/lib1596_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/lib1596_autogen.dir/ParseCache.txt"
+  "lib1596_autogen"
+  "CMakeFiles/lib1596.dir/__/__/lib/warnless.c.o"
+  "CMakeFiles/lib1596.dir/first.c.o"
+  "CMakeFiles/lib1596.dir/lib1594.c.o"
+  "CMakeFiles/lib1596.dir/lib1596_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/lib1596.dir/testutil.c.o"
+  "lib1596"
+  "lib1596.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/lib1596.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

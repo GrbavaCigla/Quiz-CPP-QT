@@ -1,0 +1,140 @@
+{
+	"BUILD_DIR" : "/home/cigla/Documents/Git/Quiz/build/lib/curl/tests/server/tftpd_autogen",
+	"CMAKE_BINARY_DIR" : "/home/cigla/Documents/Git/Quiz/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/cigla/Documents/Git/Quiz/build/lib/curl/tests/server",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/cigla/Documents/Git/Quiz/lib/curl/tests/server",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/cigla/Documents/Git/Quiz",
+	"HEADERS" : 
+	[
+		[
+			"/home/cigla/Documents/Git/Quiz/lib/curl/lib/curl_base64.h",
+			"MU",
+			"Q27U5PTTZJ/moc_curl_base64.cpp"
+		],
+		[
+			"/home/cigla/Documents/Git/Quiz/lib/curl/lib/curl_ctype.h",
+			"MU",
+			"Q27U5PTTZJ/moc_curl_ctype.cpp"
+		],
+		[
+			"/home/cigla/Documents/Git/Quiz/lib/curl/lib/curlx.h",
+			"MU",
+			"Q27U5PTTZJ/moc_curlx.cpp"
+		],
+		[
+			"/home/cigla/Documents/Git/Quiz/lib/curl/lib/memdebug.h",
+			"MU",
+			"Q27U5PTTZJ/moc_memdebug.cpp"
+		],
+		[
+			"/home/cigla/Documents/Git/Quiz/lib/curl/lib/nonblock.h",
+			"MU",
+			"Q27U5PTTZJ/moc_nonblock.cpp"
+		],
+		[
+			"/home/cigla/Documents/Git/Quiz/lib/curl/lib/strtoofft.h",
+			"MU",
+			"Q27U5PTTZJ/moc_strtoofft.cpp"
+		],
+		[
+			"/home/cigla/Documents/Git/Quiz/lib/curl/lib/warnless.h",
+			"MU",
+			"Q27U5PTTZJ/moc_warnless.cpp"
+		],
+		[
+			"/home/cigla/Documents/Git/Quiz/lib/curl/tests/server/getpart.h",
+			"MU",
+			"EWIEGA46WW/moc_getpart.cpp"
+		],
+		[
+			"/home/cigla/Documents/Git/Quiz/lib/curl/tests/server/server_setup.h",
+			"MU",
+			"EWIEGA46WW/moc_server_setup.cpp"
+		],
+		[
+			"/home/cigla/Documents/Git/Quiz/lib/curl/tests/server/server_sockaddr.h",
+			"MU",
+			"EWIEGA46WW/moc_server_sockaddr.cpp"
+		],
+		[
+			"/home/cigla/Documents/Git/Quiz/lib/curl/tests/server/tftp.h",
+			"MU",
+			"EWIEGA46WW/moc_tftp.cpp"
+		],
+		[
+			"/home/cigla/Documents/Git/Quiz/lib/curl/tests/server/util.h",
+			"MU",
+			"EWIEGA46WW/moc_util.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/cigla/Documents/Git/Quiz/build/lib/curl/tests/server/tftpd_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/cigla/Documents/Git/Quiz/build/lib/curl/tests/server/tftpd_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "CURL_STATICLIB", "HAVE_CONFIG_H" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/cigla/Documents/Git/Quiz/build/lib/curl/tests/server",
+		"/home/cigla/Documents/Git/Quiz/lib/curl/tests/server",
+		"/home/cigla/Documents/Git/Quiz/lib/curl/include",
+		"/home/cigla/Documents/Git/Quiz/lib/curl/lib",
+		"/home/cigla/Documents/Git/Quiz/build/lib/curl/lib",
+		"/home/cigla/Documents/Git/Quiz/build/lib/curl/include",
+		"/usr/include",
+		"/usr/include/c++/9.2.0",
+		"/usr/include/c++/9.2.0/x86_64-pc-linux-gnu",
+		"/usr/include/c++/9.2.0/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/cigla/Documents/Git/Quiz/build/lib/curl/tests/server/tftpd_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/cigla/Documents/Git/Quiz/build/lib/curl/tests/server/CMakeFiles/tftpd_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/cigla/Documents/Git/Quiz/build/lib/curl/tests/server/CMakeFiles/tftpd_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/cigla/Documents/Git/Quiz/lib/curl/lib/base64.c", "MU" ],
+		[ "/home/cigla/Documents/Git/Quiz/lib/curl/lib/curl_ctype.c", "MU" ],
+		[ "/home/cigla/Documents/Git/Quiz/lib/curl/lib/memdebug.c", "MU" ],
+		[ "/home/cigla/Documents/Git/Quiz/lib/curl/lib/mprintf.c", "MU" ],
+		[ "/home/cigla/Documents/Git/Quiz/lib/curl/lib/nonblock.c", "MU" ],
+		[ "/home/cigla/Documents/Git/Quiz/lib/curl/lib/strtoofft.c", "MU" ],
+		[ "/home/cigla/Documents/Git/Quiz/lib/curl/lib/warnless.c", "MU" ],
+		[
+			"/home/cigla/Documents/Git/Quiz/lib/curl/tests/server/getpart.c",
+			"MU"
+		],
+		[ "/home/cigla/Documents/Git/Quiz/lib/curl/tests/server/tftpd.c", "MU" ],
+		[ "/home/cigla/Documents/Git/Quiz/lib/curl/tests/server/util.c", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

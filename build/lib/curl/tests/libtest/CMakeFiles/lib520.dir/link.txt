@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/lib520.dir/lib520_autogen/mocs_compilation.cpp.o CMakeFiles/lib520.dir/lib520.c.o CMakeFiles/lib520.dir/first.c.o  -o lib520  -Wl,-rpath,/home/cigla/Documents/Git/Quiz/build/lib/curl/lib ../../lib/libcurl.so -lidn2 -llber -lldap -ldl -lpthread /usr/lib/libssl.so /usr/lib/libcrypto.so /usr/lib/libz.so -lssh2 

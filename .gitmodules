@@ -1,0 +1,9 @@
+[submodule "lib/curl"]
+	path = lib/curl
+	url = https://github.com/curl/curl.git
+[submodule "lib/curlpp"]
+	path = lib/curlpp
+	url = https://github.com/jpbarrette/curlpp/
+[submodule "lib/hjson-cpp"]
+	path = lib/hjson-cpp
+	url = https://github.com/hjson/hjson-cpp.git

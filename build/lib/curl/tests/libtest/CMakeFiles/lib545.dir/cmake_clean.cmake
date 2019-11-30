@@ -1,0 +1,15 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/lib545_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/lib545_autogen.dir/ParseCache.txt"
+  "lib545_autogen"
+  "CMakeFiles/lib545.dir/first.c.o"
+  "CMakeFiles/lib545.dir/lib544.c.o"
+  "CMakeFiles/lib545.dir/lib545_autogen/mocs_compilation.cpp.o"
+  "lib545"
+  "lib545.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/lib545.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

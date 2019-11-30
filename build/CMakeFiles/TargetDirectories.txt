@@ -1,0 +1,16 @@
+/home/cigla/Documents/Git/Quiz/build/CMakeFiles/edit_cache.dir
+/home/cigla/Documents/Git/Quiz/build/CMakeFiles/package_source.dir
+/home/cigla/Documents/Git/Quiz/build/CMakeFiles/Quiz.dir
+/home/cigla/Documents/Git/Quiz/build/CMakeFiles/rebuild_cache.dir
+/home/cigla/Documents/Git/Quiz/build/CMakeFiles/package.dir
+/home/cigla/Documents/Git/Quiz/build/CMakeFiles/Quiz_autogen.dir
+/home/cigla/Documents/Git/Quiz/build/lib/hjson-cpp/CMakeFiles/rebuild_cache.dir
+/home/cigla/Documents/Git/Quiz/build/lib/hjson-cpp/CMakeFiles/package.dir
+/home/cigla/Documents/Git/Quiz/build/lib/hjson-cpp/CMakeFiles/edit_cache.dir
+/home/cigla/Documents/Git/Quiz/build/lib/hjson-cpp/CMakeFiles/package_source.dir
+/home/cigla/Documents/Git/Quiz/build/lib/hjson-cpp/src/CMakeFiles/edit_cache.dir
+/home/cigla/Documents/Git/Quiz/build/lib/hjson-cpp/src/CMakeFiles/package_source.dir
+/home/cigla/Documents/Git/Quiz/build/lib/hjson-cpp/src/CMakeFiles/hjson.dir
+/home/cigla/Documents/Git/Quiz/build/lib/hjson-cpp/src/CMakeFiles/rebuild_cache.dir
+/home/cigla/Documents/Git/Quiz/build/lib/hjson-cpp/src/CMakeFiles/package.dir
+/home/cigla/Documents/Git/Quiz/build/lib/hjson-cpp/src/CMakeFiles/hjson_autogen.dir
