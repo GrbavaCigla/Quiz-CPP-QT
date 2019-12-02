@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 project(Quiz LANGUAGES CXX)
+include(CTest)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -26,15 +27,15 @@ add_executable(Quiz
   src/question.ui
 )
 
-#add_subdirectory(lib/curl)
+add_subdirectory(lib/curl)
 add_subdirectory(lib/hjson-cpp)
-#add_subdirectory(lib/curlpp)
+add_subdirectory(lib/curlpp)
 
 #find_library(/usr/local/lib/ hjson)
-find_library(curlpp /usr/lib)
-find_library(curl /usr/lib)
+#find_library(curlpp lib/curl)
+#find_library(curl /usr/lib)
 
-target_link_libraries(Quiz PRIVATE Qt5::Widgets curlpp curl hjson)
+target_link_libraries(Quiz PRIVATE Qt5::Widgets curlpp hjson)
 
 set(CPACK_GENERATOR "NSIS")
 include(CPack)

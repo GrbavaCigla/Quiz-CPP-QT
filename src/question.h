@@ -33,6 +33,11 @@ private slots:
 
 private:
     Ui::Question *ui;
+    int timerId;
+    int current_time = 0;
+protected:
+    void timerEvent(QTimerEvent *event);
+
 };
 
 #endif // QUESTION_H

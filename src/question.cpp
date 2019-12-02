@@ -21,8 +21,10 @@ Question::Question(std::string json,QWidget *parent) :
     answers.push_back(correct_answer);
     std::random_shuffle(answers.begin(), answers.end());
 
-    ui->setupUi(this);
 
+
+    ui->setupUi(this);
+    timerId = startTimer(1000);
     ui->answer_slot->setVisible(false);
 
     ui->answer_slot->setText(QString::fromStdString(correct_answer));
@@ -39,6 +41,7 @@ Question::~Question()
 {
     delete ui;
 }
+
 
 void Question::on_try_button_pressed()
 {
@@ -94,5 +97,20 @@ void Question::on_try_button_pressed()
         this->hide();
         FinishWindow* finish_window = new  FinishWindow(correct);
         finish_window->show();
+    }
+}
+
+
+void Question::timerEvent(QTimerEvent *event)
+{
+    if(!once_clicked){
+        if(current_time>5){
+            current_time=0;
+            this->on_try_button_pressed();
+        }else{
+
+            ui->time_label->setText(QString::fromStdString(std::to_string(5-current_time)));
+            current_time+=1;
+        }
     }
 }

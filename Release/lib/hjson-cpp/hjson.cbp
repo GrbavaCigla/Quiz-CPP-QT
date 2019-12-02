@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hjson"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\curl\;CMake Files\lib\curl\CMake\;CMake Files\lib\curl\docs\;CMake Files\lib\curl\docs\libcurl\;CMake Files\lib\curl\docs\libcurl\opts\;CMake Files\lib\curl\docs\cmdline-opts\;CMake Files\lib\curl\lib\;CMake Files\lib\curl\src\;CMake Files\lib\curl\tests\;CMake Files\lib\curl\tests\data\;CMake Files\lib\curl\tests\libtest\;CMake Files\lib\curl\tests\server\;CMake Files\lib\curl\tests\unit\;CMake Files\lib\hjson-cpp\;CMake Files\lib\hjson-cpp\cmake\;CMake Files\lib\hjson-cpp\src\;CMake Files\lib\curlpp\;CMake Files\lib\curlpp\extras\;CMake Files\Release\;CMake Files\Release\lib\;CMake Files\Release\lib\curl\;CMake Files\Release\lib\curl\docs\;CMake Files\Release\lib\curl\docs\libcurl\;CMake Files\Release\lib\curl\docs\libcurl\opts\;CMake Files\Release\lib\curl\docs\cmdline-opts\;CMake Files\Release\lib\curl\lib\;CMake Files\Release\lib\curl\src\;CMake Files\Release\lib\curl\tests\;CMake Files\Release\lib\curl\tests\data\;CMake Files\Release\lib\curl\tests\libtest\;CMake Files\Release\lib\curl\tests\server\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5\;CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/cigla/Documents/Git/Quiz/Release/lib/hjson-cpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v all"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hjson">
+				<Option output="/home/cigla/Documents/Git/Quiz/Release/lib/hjson-cpp/src/libhjson.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cigla/Documents/Git/Quiz/Release/lib/hjson-cpp/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cigla/Documents/Git/Quiz/Release/lib/hjson-cpp/src"/>
+					<Add directory="/home/cigla/Documents/Git/Quiz/lib/hjson-cpp/src"/>
+					<Add directory="/home/cigla/Documents/Git/Quiz/Release/lib/hjson-cpp/src/hjson_autogen/include"/>
+					<Add directory="/home/cigla/Documents/Git/Quiz/lib/hjson-cpp/include/hjson"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v hjson"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hjson/fast">
+				<Option output="/home/cigla/Documents/Git/Quiz/Release/lib/hjson-cpp/src/libhjson.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cigla/Documents/Git/Quiz/Release/lib/hjson-cpp/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cigla/Documents/Git/Quiz/Release/lib/hjson-cpp/src"/>
+					<Add directory="/home/cigla/Documents/Git/Quiz/lib/hjson-cpp/src"/>
+					<Add directory="/home/cigla/Documents/Git/Quiz/Release/lib/hjson-cpp/src/hjson_autogen/include"/>
+					<Add directory="/home/cigla/Documents/Git/Quiz/lib/hjson-cpp/include/hjson"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v hjson/fast"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hjson_autogen">
+				<Option working_dir="/home/cigla/Documents/Git/Quiz/Release/lib/hjson-cpp/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v hjson_autogen"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/Release/lib/hjson-cpp/src/hjson_autogen/mocs_compilation.cpp">
+			<Option target="hjson"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/hjson-cpp/include/hjson/hjson.h">
+			<Option target="hjson"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/hjson-cpp/src/hjson_decode.cpp">
+			<Option target="hjson"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/hjson-cpp/src/hjson_encode.cpp">
+			<Option target="hjson"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/hjson-cpp/src/hjson_parsenumber.cpp">
+			<Option target="hjson"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/hjson-cpp/src/hjson_value.cpp">
+			<Option target="hjson"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\curl\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/curl-config.in">
+			<Option virtualFolder="CMake Files\lib\curl\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/libcurl.pc.in">
+			<Option virtualFolder="CMake Files\lib\curl\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/CMake/CurlSymbolHiding.cmake">
+			<Option virtualFolder="CMake Files\lib\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/CMake/CurlTests.c">
+			<Option virtualFolder="CMake Files\lib\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/CMake/FindLibSSH2.cmake">
+			<Option virtualFolder="CMake Files\lib\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/CMake/Macros.cmake">
+			<Option virtualFolder="CMake Files\lib\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/CMake/OtherTests.cmake">
+			<Option virtualFolder="CMake Files\lib\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/CMake/Utilities.cmake">
+			<Option virtualFolder="CMake Files\lib\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/CMake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\lib\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/CMake/curl-config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\curl\CMake\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/docs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\curl\docs\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/docs/libcurl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\curl\docs\libcurl\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/docs/libcurl/opts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\curl\docs\libcurl\opts\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/docs/cmdline-opts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\curl\docs\cmdline-opts\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\curl\lib\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/lib/curl_config.h.cmake">
+			<Option virtualFolder="CMake Files\lib\curl\lib\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\curl\src\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\curl\tests\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/tests/data/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\curl\tests\data\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/tests/libtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\curl\tests\libtest\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/tests/server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\curl\tests\server\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curl/tests/unit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\curl\tests\unit\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/hjson-cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\hjson-cpp\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/hjson-cpp/cmake/hjson-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\lib\hjson-cpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/hjson-cpp/cmake/hjson-config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\hjson-cpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/hjson-cpp/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\hjson-cpp\src\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curlpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\curlpp\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curlpp/extras/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\curlpp\extras\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curlpp/extras/curlpp-config.in">
+			<Option virtualFolder="CMake Files\lib\curlpp\extras\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/lib/curlpp/extras/curlpp.pc.in">
+			<Option virtualFolder="CMake Files\lib\curlpp\extras\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/Release/lib/curl/docs/libcurl/Makefile.inc.cmake">
+			<Option virtualFolder="CMake Files\Release\lib\curl\docs\libcurl\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/Release/lib/curl/docs/libcurl/opts/Makefile.inc.cmake">
+			<Option virtualFolder="CMake Files\Release\lib\curl\docs\libcurl\opts\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/Release/lib/curl/docs/cmdline-opts/Makefile.inc.cmake">
+			<Option virtualFolder="CMake Files\Release\lib\curl\docs\cmdline-opts\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/Release/lib/curl/lib/Makefile.inc.cmake">
+			<Option virtualFolder="CMake Files\Release\lib\curl\lib\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/Release/lib/curl/src/Makefile.inc.cmake">
+			<Option virtualFolder="CMake Files\Release\lib\curl\src\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/Release/lib/curl/tests/data/Makefile.inc.cmake">
+			<Option virtualFolder="CMake Files\Release\lib\curl\tests\data\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/Release/lib/curl/tests/libtest/Makefile.inc.cmake">
+			<Option virtualFolder="CMake Files\Release\lib\curl\tests\libtest\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/Release/lib/curl/tests/server/Makefile.inc.cmake">
+			<Option virtualFolder="CMake Files\Release\lib\curl\tests\server\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5Widgets_QBB10StylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5Widgets_QCleanlooksStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5Widgets_QGtk2StylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5Widgets_QMotifStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5Widgets_QPlastiqueStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGtk2ThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/cigla/Documents/Git/Quiz/../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
